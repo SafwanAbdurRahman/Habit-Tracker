@@ -1,0 +1,6 @@
+node_modules\n.next\n.env.local\n.env\ndist\nEOF
+cat > /mnt/data/habit-tracker/.env.example <<'EOF'
+NEXT_PUBLIC_SUPABASE_URL=https://YOUR_PROJECT.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_PUBLISHABLE_OR_ANON_KEY
+.env.local
+node_modules/
